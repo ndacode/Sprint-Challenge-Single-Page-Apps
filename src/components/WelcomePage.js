@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import CharacterList from './CharacterList'
+import React from 'react';
+import { BrowserRouter as Route, Link } from 'react-router-dom';
+
 
 export default function WelcomePage(props) {
 
-  const [character, setCharacter] = useState([])
-  
   return (
     <section className="welcome-page">
       <header>
@@ -20,12 +18,7 @@ export default function WelcomePage(props) {
           <Link to="/">Welcome</Link>
           <Link to="/CharacterList">CAST</Link>
       </div>
-       
     </section>
-
-    // <Route exact path="/" component ={WelcomePage}/>
-    // <Route exact path ="/CharacterList" render = {props => 
-    //   (<CharacterList {...props} character={character}/>)}/>
   )
 }
     
