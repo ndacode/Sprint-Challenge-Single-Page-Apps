@@ -29,6 +29,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+In a world where minimalism is paramount, where server requests and DOM interactions are most impressive when they are few and effective, client-side routing is a great way to reduce the work load of a web application's partners in crime, the server and the DOM. Rather than requesting information for a web application for every page through the server, which must return a new document with each request, and asking the browser to refresh and re-render our entire application with every page url, client-side routing allows the url to request all relevant server information once and dictate what's rendered according to what's essential to the web application for that particular url. This ultimately helps to reduce bandwidth and makes the application move faster. The page doesn't have to refresh when new data is called in React applications using React Router because JS allows us to hold the data in state and store it associatively with the respective routed url. This is also known as Component Based Architecture.
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
